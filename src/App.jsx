@@ -22,6 +22,9 @@ function App() {
     <>
        {fruits.length > 0 ?     <List items={fruits}  catagory="Fruits"/> : null }
        {vegtables.length > 0 ?  <List items={vegtables}  catagory="Vegtables"/> : null }
+       <List/>
+
+
     
      </>
   
