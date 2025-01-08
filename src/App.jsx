@@ -1,15 +1,12 @@
-import Button from "./click_event/Button.jsx";
+import Counter from "./usestate/Counter.jsx";
 
 function App() {
   return(
     <>
-       <Button/>
-
-
-    
-     </>
+       <Counter/>
+    </>
   
   );
 }
  
-export default App
+export default App;
