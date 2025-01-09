@@ -1,9 +1,9 @@
-import Counter from "./usestate/Counter.jsx";
+import MyComponent from "./onchange/MyComponent.jsx";
 
 function App() {
   return(
     <>
-       <Counter/>
+       <MyComponent/>
     </>
   
   );
