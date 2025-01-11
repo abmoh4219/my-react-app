@@ -1,9 +1,9 @@
-import MyComponent from "./onchange/MyComponent.jsx";
+import ColorPicker from "./color_picker_app/ColorPicker";
 
 function App() {
   return(
     <>
-       <MyComponent/>
+       <ColorPicker/>
     </>
   
   );
