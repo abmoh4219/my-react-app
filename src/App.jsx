@@ -1,9 +1,9 @@
-import ColorPicker from "./color_picker_app/ColorPicker";
+import UpdateCar from "./update_object/UpdateCar.jsx";
 
 function App() {
   return(
     <>
-       <ColorPicker/>
+       <UpdateCar/>
     </>
   
   );
