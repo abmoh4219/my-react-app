@@ -17,7 +17,7 @@ function UpdateCar()  {
     const [car,setCar]=useState({
         year:2025,
         make:"Ford",
-        model:"Mustang"
+        model:"Endeavour"
     });
 
     const handleYearChange= (event) =>{
