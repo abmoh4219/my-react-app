@@ -1,9 +1,9 @@
-import UpdateCar from "./update_object/UpdateCar.jsx";
+import UpdateFood from "./update_array/UpdateFood.jsx";
 
 function App() {
   return(
     <>
-       <UpdateCar/>
+       <UpdateFood/>
     </>
   
   );
