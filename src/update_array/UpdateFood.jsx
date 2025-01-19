@@ -1,3 +1,4 @@
+//update
 import React,{useState} from "react";
 function UpdateFood() {
     const [foods,setFoods]=useState(["apple","orange","banana"]);
