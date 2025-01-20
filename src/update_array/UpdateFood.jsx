@@ -1,7 +1,7 @@
 //update
 import React,{useState} from "react";
 function UpdateFood() {
-    const [foods,setFoods]=useState(["apple","orange","banana"]);
+    const [foods,setFoods]=useState(["apple","orange","mango"]);
 
     const handleAddFood = () =>{
         const newFood= document.getElementById("foodInput").value;
