@@ -12,6 +12,11 @@ function MyComponent() {
                        model: carModel};
         setCar(c => [...c,newCar]);
 
+         //reset the variable
+         setCarYear(new Date().getFullYear())
+         setCarMake('');
+         setCarModel('');
+
        
 
     }
