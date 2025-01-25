@@ -1,9 +1,9 @@
-import UpdateFood from "./update_array/UpdateFood.jsx";
+import MyComponent from "./update_array/MyComponent.jsx";
 
 function App() {
   return(
     <>
-       <UpdateFood/>
+       <MyComponent/>
     </>
   
   );
