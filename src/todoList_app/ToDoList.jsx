@@ -25,7 +25,7 @@ function ToDoList() {
 
     }
 
-    return ( <div className="to-do-list">
+    return ( <div className={styles["to-do-list"]}>
         <h1>To-Do-List</h1>
         <div>
             <input 
@@ -33,7 +33,7 @@ function ToDoList() {
             placeholder="Enter a task...." 
             value={newTask}
             onChange={handleInputChange}/>
-            <button className="add-button" 
+            <button className={styles["add-button"]} 
                     onClick={addTask}>Add
             </button>
         </div>
@@ -41,17 +41,17 @@ function ToDoList() {
         <ol>
             {tasks.map((task,index) => 
             <li key={index}>
-                <span className="text">{task}</span>
+                <span className={styles["text"]}>{task}</span>
                 <button 
-                      className="delete-button"
+                      className={styles["delete-button"]}
                       onClick={() => deleteTask(index)}>Delete
                 </button>
                 <button 
-                      className="move-button"
+                      className={styles["move-button"]}
                       onClick={() => moveTaskUp(index)}>👆
                 </button>
                 <button 
-                      className="move-button"
+                      className={styles["move-button"]}
                       onClick={() => moveTaskDown(index)}>👇
                 </button>
                 
