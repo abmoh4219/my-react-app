@@ -1,9 +1,8 @@
-import MyComponent from "./update_array/MyComponent.jsx";
-
+import ToDoList from "./todoList_app/ToDoList.jsx";
 function App() {
   return(
     <>
-       <MyCompot/>
+       <ToDoList/>
     </>
   
   );
