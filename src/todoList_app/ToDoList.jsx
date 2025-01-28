@@ -10,6 +10,10 @@ function ToDoList() {
     }
     
     function addTask(){
+        if (newTask.trim() !== "") {
+            setTask([...tasks, newTask]);
+            setNewTask(""); // Clear the input field after adding
+        }
 
     }
 
