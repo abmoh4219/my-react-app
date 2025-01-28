@@ -18,6 +18,8 @@ function ToDoList() {
     }
 
     function deleteTask(index){
+        const updateTask=tasks.filter((_,i) => i != index);
+        setTask(updateTask);
 
     }
 
