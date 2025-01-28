@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import styles from "./ToDoList.module.css";
 function ToDoList() {
-    const [tasks,setTask]=useState(["eat breakfast","walk the dog ","pray"]);
+    const [tasks,setTask]=useState([]);
     const [newTask,setNewTask]=useState('');
 
     function handleInputChange(event){
@@ -33,6 +33,11 @@ function ToDoList() {
     }
 
     function moveTaskDown(index){
+        if (index < tasks.length - 1) {
+            const updatedTasks = [...tasks];
+            [updatedTasks[index], updatedTasks[index + 1]] = [updatedTasks[index + 1], updatedTasks[index]];
+            setTask(updatedTasks);
+        }
 
     }
 
