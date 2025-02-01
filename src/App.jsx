@@ -1,8 +1,8 @@
-import MyComponent from "./useeffect/MyComponent.jsx";
+import ComponentA from "./usecontext/ComponentA.jsx";
 function App() {
   return(
     <>
-       <MyComponent/>
+       <ComponentA/>
     </>
   
   );
