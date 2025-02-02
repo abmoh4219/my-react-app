@@ -6,10 +6,10 @@
 import styles from './Component.module.css';
 import ComponentC from './ComponentC copy 4';
 import React from "react";
-function ComponentB (props)  {
+function ComponentB ()  {
     return (<div className={styles.box}>
         <h1>Component B</h1>
-        <ComponentC user={props.user}/>
+        <ComponentC />
     </div> );
 }
 
