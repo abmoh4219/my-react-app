@@ -12,9 +12,23 @@
 
  */
 import React,{useState,useEffect,useRef} from "react";
-function MyComponent  ()  {
-    return ( <div>
+function MyComponent() {
 
+    const ref=useRef("pizza");
+    
+    useEffect(() =>{
+        console.log('COMPONENT RENDERED');
+        
+    })
+
+    function handleClick(){
+        ref.current++;
+        console.log(ref);
+        
+    }
+
+    return ( <div>
+        <button onClick={handleClick}>Click me!</button>
     </div>);
 }
  
